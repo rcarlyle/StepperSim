@@ -1,5 +1,5 @@
 # StepperSim
-Simulates stepper motor and driver systems
+Ryan Carlyle
 
 This is an Excel spreadsheet model of an open-loop stepper motor and stepper driver system. It is intended to facilitate drivetrain design for light CNC machinery such as 3D printers. 
 
