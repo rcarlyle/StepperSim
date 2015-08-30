@@ -1,0 +1,5 @@
+Makerbot Botstep17 Default Parameters
+Rosc: short to ground
+Rsense: 0.27 ohm
+
+Note: 1/8 microstepping not possible

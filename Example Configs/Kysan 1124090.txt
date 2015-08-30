@@ -1,0 +1,7 @@
+Kysan 1124090 Default Parameters
+Steps per rev: 200
+Rated voltage: 4.2V
+Resistance: 2.8 ohm
+Inductance: 4.8 mH
+Rated current: 1.5A
+Back-emf: 0.023 VRMS/RPM (measured average)

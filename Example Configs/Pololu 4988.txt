@@ -1,0 +1,3 @@
+Pololu 4988 Default Parameters
+Rosc: 10kohm pull-down
+Rsense: 0.05 ohm
