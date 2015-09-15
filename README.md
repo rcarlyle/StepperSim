@@ -9,10 +9,10 @@ This is an Excel spreadsheet model of an open-loop stepper motor driver system. 
 3. Look at the output charts and interpret what you see. Hint: you want the coil current to closely track the target current.
 
 Unfortunately, each driver chip has its own special control logic and features, so each spreadsheet is highly customized for a particular driver chip. Additional drivers may be added over time. Currently supported drivers:
-- Allegro A4988 / A4982 -- StepStick, BotStep
+- Allegro A4988 / A4982 -- Pololu, StepStick, BotStep
+- TI DRV8825 -- Pololu, SureStepr
 
 Future driver goals:
-- TI DRV8825 -- SureStepr
 - TI DRV8846
 - ?? THB6128 -- Silencioso, RAPS128
 - Trinamic TMC2100 -- SilentStepStick
