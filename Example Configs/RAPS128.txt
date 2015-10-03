@@ -1,0 +1,4 @@
+RAPS128 Default Parameters
+Osc1: 250 pF
+Decay Pin Voltage: user-adjusted trim pot, recommended voltage is 1.1-3.1v
+Rsense: 0.22 ohm
