@@ -1,0 +1,3 @@
+Pololu 8825 Default Parameters
+Decay Pin Config: Float
+Rsense: 0.1 ohm
