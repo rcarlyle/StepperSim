@@ -1,0 +1,4 @@
+SureStepr SD6128 Default Parameters
+Osc1: 220 pF
+Decay Pin Voltage: float
+Rsense: 0.1 ohm
