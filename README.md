@@ -16,8 +16,10 @@ Unfortunately, each driver chip has its own special control logic and features, 
 - THB6128 -- Silencioso, RAPS128, SureStepr
 
 Future driver goals:
-- TI DRV8846
+- "Optimal" driver (no PWM chopper) to check motor performance with adaptive drivers or high-end DSP stepper drivers like Leadshines
+- Allegro A5984 - SureStepr
 - Trinamic TMC2100 -- SilentStepStick
+- Trinamic TMC2660 -- Duet Wifi
 
 ## Basic model methodology:
 3. Calculate the instantaneous state parameters (such as microstep target and back-emf voltage)
