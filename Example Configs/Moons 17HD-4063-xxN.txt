@@ -1,0 +1,8 @@
+Moons 17HD-4063-03N Default Parameters
+Steps per rev: 200
+Rated voltage: 4.83V
+Resistance: 3.75 ohm
+Inductance: 9.3 mH
+Rated current: 0.84A
+Back-emf: 0.020 VRMS/RPM (measured average)
+Rotor inertia 36 g-cm^2 (from datasheet)
