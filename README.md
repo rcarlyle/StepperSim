@@ -11,13 +11,18 @@ This is an Excel spreadsheet model of an open-loop stepper motor driver system. 
 Note that the calculation sheets are locked solely to prevent accidental editing... the password to unlock them is "StepperSim" (case sensitive)
 
 Unfortunately, each driver chip has its own special control logic and features, so each spreadsheet is highly customized for a particular driver chip. Additional drivers may be added over time. Currently supported drivers:
+- Allegro A3977 -- Makerbot Gen 4 electronics
 - Allegro A4988 / A4982 -- Pololu, StepStick, BotStep
 - TI DRV8825 -- Pololu, SureStepr, StepStick
 - THB6128 -- Silencioso, RAPS128, SureStepr
 
 Future driver goals:
-- TI DRV8846
+- "Optimal" driver (no PWM chopper) to check motor performance with adaptive drivers or high-end DSP stepper drivers like Leadshines
+- Allegro A5984 - SureStepr
 - Trinamic TMC2100 -- SilentStepStick
+- Trinamic TMC2660 -- Duet Wifi
+
+If you want to simulate a new driver with an "adaptive" current chopping scheme like the A5984 or TMC2xxx series, you can get a ballpark simulation out of the THB6128 sheet. All highly-advanced chopping algorithms should produce reasonably similar waveforms. (If your driver is really good, all the simulator really shows you is motor/voltage behavior.) 
 
 ## Basic model methodology:
 3. Calculate the instantaneous state parameters (such as microstep target and back-emf voltage)
