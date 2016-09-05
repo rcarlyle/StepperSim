@@ -22,6 +22,8 @@ Future driver goals:
 - Trinamic TMC2100 -- SilentStepStick
 - Trinamic TMC2660 -- Duet Wifi
 
+If you want to simulate a new driver with an "adaptive" current chopping scheme like the A5984 or TMC2xxx series, you can get a ballpark simulation out of the THB6128 sheet. All highly-advanced chopping algorithms should produce reasonably similar waveforms. (If your driver is really good, all the simulator really shows you is motor/voltage behavior.) 
+
 ## Basic model methodology:
 3. Calculate the instantaneous state parameters (such as microstep target and back-emf voltage)
 4. Calculate how long until the driver's PWM chopper will next change state
