@@ -11,6 +11,7 @@ This is an Excel spreadsheet model of an open-loop stepper motor driver system. 
 Note that the calculation sheets are locked solely to prevent accidental editing... the password to unlock them is "StepperSim" (case sensitive)
 
 Unfortunately, each driver chip has its own special control logic and features, so each spreadsheet is highly customized for a particular driver chip. Additional drivers may be added over time. Currently supported drivers:
+- Allegro A3977 -- Makerbot Gen 4 electronics
 - Allegro A4988 / A4982 -- Pololu, StepStick, BotStep
 - TI DRV8825 -- Pololu, SureStepr, StepStick
 - THB6128 -- Silencioso, RAPS128, SureStepr
