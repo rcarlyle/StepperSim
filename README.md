@@ -3,7 +3,9 @@ Ryan Carlyle
 
 This is an Excel spreadsheet model of an open-loop stepper motor driver system. It is intended to facilitate drivetrain design for light CNC machinery such as 3D printers. 
 
-## How to use:
+New Feature! Try the stepper motor torque/RPM curve predictor spreadsheet. This is a useful tool for drivetrain design, such as picking gear ratios. It seems to be a pretty accurate estimate -- typically +/-10% from measured curves unless the real motor has resonance issues.
+
+## How to use the stepper/driver simulators:
 1. Download the appropriate spreadsheet for your stepper driver chip using the "raw" button or other suitable method of your choice, and open in a recent version of Excel. (LibreOffice also appears to work.) If there is a "with X" sheet, that is an experimental version that may run slower or have new bugs. 
 2. Follow the in-file instructions to input the highlighted parameters for your motor, power supply, driver chip, and drivetrain.
 3. Look at the output charts and interpret what you see. Hint: you want the coil current to closely track the target current.
