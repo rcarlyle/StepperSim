@@ -16,7 +16,7 @@ Unfortunately, each driver chip has its own special control logic and features, 
 - Allegro A3977 -- Makerbot Gen 4 electronics
 - Allegro A4988 / A4982 -- Pololu, StepStick, BotStep
 - TI DRV8825 -- Pololu, SureStepr, StepStick
-- THB6128 -- Silencioso, RAPS128, SureStepr
+- THB6128 -- Silencioso, RAPS128, SureStepr (also works for LV8729)
 
 Future driver goals:
 - "Optimal" driver (no PWM chopper) to check motor performance with adaptive drivers or high-end DSP stepper drivers like Leadshines
